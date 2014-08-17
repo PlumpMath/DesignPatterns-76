@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{A3993B84-CF48-4712-B6EB-33B8F1F764C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAggregator", "EventAggregator\EventAggregator.csproj", "{1954FD08-4A80-44FB-B1EF-09E4B7F6F9B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{A3993B84-CF48-4712-B6EB-33B8F1F764C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3993B84-CF48-4712-B6EB-33B8F1F764C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3993B84-CF48-4712-B6EB-33B8F1F764C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1954FD08-4A80-44FB-B1EF-09E4B7F6F9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1954FD08-4A80-44FB-B1EF-09E4B7F6F9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1954FD08-4A80-44FB-B1EF-09E4B7F6F9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1954FD08-4A80-44FB-B1EF-09E4B7F6F9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,5 +159,6 @@ Global
 		{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED} = {EB214444-3B1A-4DB5-8172-DFF9686307DA}
 		{53AEA9B8-20BE-4A1E-B6B6-F90095A86482} = {4CF7EA53-C954-40D0-9545-5B0EE5A4C839}
 		{A3993B84-CF48-4712-B6EB-33B8F1F764C5} = {B3B4CC15-DB4A-4B5E-8511-F92AC129F98E}
+		{1954FD08-4A80-44FB-B1EF-09E4B7F6F9B3} = {61D800B4-80D0-4D92-95AD-029E8DA57257}
 	EndGlobalSection
 EndGlobal
