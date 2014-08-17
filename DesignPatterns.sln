@@ -75,7 +75,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitOfWork", "UnitOfWork", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{E5B4733B-7448-439E-B247-4034FBAD38DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{001199C5-1EDB-47E0-8F3E-32D3559B5C38}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{001199C5-1EDB-47E0-8F3E-32D3559B5C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001199C5-1EDB-47E0-8F3E-32D3559B5C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001199C5-1EDB-47E0-8F3E-32D3559B5C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001199C5-1EDB-47E0-8F3E-32D3559B5C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -112,5 +124,6 @@ Global
 		{F1B4A931-8C78-419B-975D-A25C1DA7ED9E} = {CFD250D1-A1CD-4AA4-ACD4-C1CE0E3511B6}
 		{8DFA311E-06D7-4361-A99D-C45E25F11CB8} = {CFD250D1-A1CD-4AA4-ACD4-C1CE0E3511B6}
 		{E5B4733B-7448-439E-B247-4034FBAD38DD} = {CFD250D1-A1CD-4AA4-ACD4-C1CE0E3511B6}
+		{001199C5-1EDB-47E0-8F3E-32D3559B5C38} = {18B80039-F375-4DD5-AD67-6F2E439FAF54}
 	EndGlobalSection
 EndGlobal
