@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{16302715-A055-4A1A-B468-A109BAE48849}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{16302715-A055-4A1A-B468-A109BAE48849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16302715-A055-4A1A-B468-A109BAE48849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16302715-A055-4A1A-B468-A109BAE48849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,5 +138,6 @@ Global
 		{E5B4733B-7448-439E-B247-4034FBAD38DD} = {CFD250D1-A1CD-4AA4-ACD4-C1CE0E3511B6}
 		{001199C5-1EDB-47E0-8F3E-32D3559B5C38} = {18B80039-F375-4DD5-AD67-6F2E439FAF54}
 		{16302715-A055-4A1A-B468-A109BAE48849} = {A69C0765-95FC-49A5-B49B-3A992C73A692}
+		{7F92A985-8CD6-48B1-BA4F-F4D80B5B9DED} = {EB214444-3B1A-4DB5-8172-DFF9686307DA}
 	EndGlobalSection
 EndGlobal
