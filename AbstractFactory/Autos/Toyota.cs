@@ -22,8 +22,6 @@ namespace AbstractFactory.Autos
             Name = "Toyota Celica";
         }
 
-        #region IAuto Members
-
         public void TurnOn()
         {
             Console.WriteLine(Name + " lähti käyntiin.");
@@ -39,8 +37,6 @@ namespace AbstractFactory.Autos
             get;
             private set;
         }
-
-        #endregion
 
     }
 }

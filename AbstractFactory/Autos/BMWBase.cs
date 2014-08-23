@@ -10,8 +10,6 @@ namespace AbstractFactory.Autos
 
         public string Name { get; protected set; }
 
-        #region IAuto Members    
-
         public void TurnOn()
         {
             Console.WriteLine(Name + " lähti käyntiin.");
@@ -21,8 +19,5 @@ namespace AbstractFactory.Autos
         {
             Console.WriteLine(Name + " simahti.");
         }
-
-        #endregion
-
     }
 }

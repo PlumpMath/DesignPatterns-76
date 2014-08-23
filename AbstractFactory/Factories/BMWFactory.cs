@@ -8,8 +8,6 @@ namespace AbstractFactory.Factories
 {
     public class BMWFactory : IAutoFactory
     {       
-         #region IAutoFactory Members
-
         public IAuto CreateEconomyCar()
         {
             var auto = new BMWEconomy();
@@ -27,7 +25,5 @@ namespace AbstractFactory.Factories
             var auto = new BMWSports();
             return auto;
         }
-
-        #endregion
     }
 }

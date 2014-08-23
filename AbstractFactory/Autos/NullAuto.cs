@@ -7,8 +7,6 @@ namespace AbstractFactory.Autos
 {
     public class NullAuto : IAuto
     {
-        #region IAuto Members
-
         public void TurnOn()
         {
             Console.WriteLine("This auto is NULL. It cannot start.");
@@ -30,7 +28,5 @@ namespace AbstractFactory.Autos
                 Console.WriteLine("Can't set name to NULL!");
             }
         }
-
-        #endregion
     }
 }

@@ -8,9 +8,6 @@ namespace AbstractFactory.Factories
 {
     public class ToyotaFactory : IAutoFactory
     {
-        #region IAutoFactory Members
-
-
         public IAuto CreateEconomyCar()
         {
             var auto = new Toyota();
@@ -34,7 +31,5 @@ namespace AbstractFactory.Factories
 
             return auto;
         }
-
-        #endregion
     }
 }

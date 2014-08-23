@@ -9,6 +9,18 @@ namespace Proxy
     * Proxy Pattern
     * 
     * Definition: Provide a surrogate or placeholder for another object to control access to it.
+     * 
+     * Types of proxies:
+     * 1. Virtual proxy
+     * - for lazy initialization of (resource-heavy) objects
+     * 2. Remote proxy
+     * - used to hide communication mechanism between remote objects
+     * 3. Access proxy
+     * - used to provide control over sensitive master object
+     * 4. Cache proxy
+     * - seldom-changing results, probably long-running tasks
+     * 5. Smart proxy
+     * - add extra functionality (like logging)
     */
     class Program
     {
