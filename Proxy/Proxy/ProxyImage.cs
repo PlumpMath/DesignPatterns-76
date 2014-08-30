@@ -21,8 +21,11 @@ namespace Proxy
 
         public void ShowImage()
         {
-            hiResImage = new HiResImage(_filePath);
-
+            // Use 'lazy initialization'
+            if (hiResImage == null)
+            {
+                hiResImage = new HiResImage(_filePath);
+            }
             hiResImage.ShowImage();
         }
     }
